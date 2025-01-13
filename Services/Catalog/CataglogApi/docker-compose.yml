@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  cataglogapi:
+    image: ${DOCKER_REGISTRY-}cataglogapi
+    build:
+      context: .
+      dockerfile: ./Dockerfile

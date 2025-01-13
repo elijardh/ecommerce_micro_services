@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{3628B958-EBAD-4CEC-9007-9EF19F77433D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Catalog", "Catalog", "{2A3ED199-60E4-4B0D-A166-08B2AC74A58F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CataglogApi", "Services\Catalog\CataglogApi\CataglogApi.csproj", "{BC0347AE-FDC4-4B30-9970-3641C8F663FA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BuildingBlock", "BuildingBlock", "{D8AF14E5-94BD-4B8B-8D51-DD5D181FE99E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuildingBlocks", "BuildingBlock\BuildingBlocks\BuildingBlocks.csproj", "{03F1EFAA-EF2A-4EB2-A444-8CABE831C8CA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BC0347AE-FDC4-4B30-9970-3641C8F663FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC0347AE-FDC4-4B30-9970-3641C8F663FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC0347AE-FDC4-4B30-9970-3641C8F663FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC0347AE-FDC4-4B30-9970-3641C8F663FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03F1EFAA-EF2A-4EB2-A444-8CABE831C8CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03F1EFAA-EF2A-4EB2-A444-8CABE831C8CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03F1EFAA-EF2A-4EB2-A444-8CABE831C8CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03F1EFAA-EF2A-4EB2-A444-8CABE831C8CA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2A3ED199-60E4-4B0D-A166-08B2AC74A58F} = {3628B958-EBAD-4CEC-9007-9EF19F77433D}
+		{BC0347AE-FDC4-4B30-9970-3641C8F663FA} = {2A3ED199-60E4-4B0D-A166-08B2AC74A58F}
+		{03F1EFAA-EF2A-4EB2-A444-8CABE831C8CA} = {D8AF14E5-94BD-4B8B-8D51-DD5D181FE99E}
+	EndGlobalSection
+EndGlobal
