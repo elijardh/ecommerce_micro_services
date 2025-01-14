@@ -17,7 +17,7 @@ namespace CataglogApi.Products.GetProductById
             }).WithName("GetProductByIdEndpoint")
             .WithDescription("Gets a product by id")
             .Produces<GetProductByIdResponse>()
-            .ProducesProblem(StatusCodes.Status400BadRequest);;
+            .ProducesProblem(StatusCodes.Status400BadRequest);
         }
     }
 }

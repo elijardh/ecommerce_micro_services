@@ -10,3 +10,4 @@
 /Users/user/Documents/GitHub/EcommerceSolution/BuildingBlock/BuildingBlocks/obj/Debug/net8.0/refint/BuildingBlocks.dll
 /Users/user/Documents/GitHub/EcommerceSolution/BuildingBlock/BuildingBlocks/obj/Debug/net8.0/BuildingBlocks.pdb
 /Users/user/Documents/GitHub/EcommerceSolution/BuildingBlock/BuildingBlocks/obj/Debug/net8.0/ref/BuildingBlocks.dll
+/Users/user/Documents/GitHub/EcommerceSolution/BuildingBlock/BuildingBlocks/obj/Debug/net8.0/BuildingBlocks.sourcelink.json
