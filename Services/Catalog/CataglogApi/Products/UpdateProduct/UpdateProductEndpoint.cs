@@ -8,7 +8,7 @@ namespace CataglogApi.Products.UpdateProduct
         string ImageFile,
         decimal Price);
     
-    public record UpdateProductResult(Product Product);
+    public record UpdateProductResponse(Product Product);
     public class UpdateProductEndpoint : ICarterModule
     {
         public void AddRoutes(IEndpointRouteBuilder app)
@@ -17,10 +17,8 @@ namespace CataglogApi.Products.UpdateProduct
                 {var command = request.Adapt<UpdateProductCommand>();
                 var result = await sender.Send(command);
                 Console.WriteLine($"result: {result.Product.Name}");
-                //TODO: Fix addpating issue
-                var response = result.Adapt<UpdateProductResult>();
-                Console.WriteLine($"response: {response?.Product?.Name??"NO Name"} | {response?.Product?.Description??"No Description"}");
-                return Results.Ok(result);
+                var response = result.Adapt<UpdateProductResponse>();
+                return Results.Ok(response);
             }).WithName("UpdateProductEndpoint")
                 .WithDescription("Updates a product")
                 .Produces<UpdateProductResult>(StatusCodes.Status200OK)
